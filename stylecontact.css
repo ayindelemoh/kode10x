@@ -1,0 +1,126 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+
+}
+body{
+    height: 100vh;
+    width: 100%;
+}
+.header-map{
+    background-color: aqua; */
+    width: 100%; 
+    height: 330px;
+}
+.navs{
+    display: flex;
+    justify-content: center;
+    /* background-color: red; */
+    height: 50px;
+    align-items: center;
+    margin-bottom: 50px;
+    
+}
+.img-wrapper{
+    width: 100%;
+    height: 100%;
+    background-color: #FFFFFF;
+}
+.head-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+
+}
+/* OUR TEAM */
+.our-team{
+    height: 240vh;
+    width: 100%;
+    background-color: #0B163F;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 30px;
+}
+.our-team h1{
+    color: white;
+    font-family: sans-serif;
+    font-size: 32px;
+    margin-top: 40px;
+}
+.our-team p{
+    color: #8FB9D9;
+    font-size: 18px;
+    font-family: sans-serif;
+    line-height: 1.8;
+    margin-top: 20px;
+}
+.team-container{
+    height: 60%;
+    width: 800px;
+    /* background-color: chartreuse; */
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.team-container{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 24px;
+    width: 85%;
+}
+.team-group{
+    background-color: #FFFFFF;
+    border-radius: 15px;
+    /* padding: 32px 24px; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 500px;
+    width: 330px;
+
+    & h3{
+        font-size: 20px;
+        font-family: sans-serif;
+        margin-top: 20px;
+    }
+    & p{
+        color: blue;
+        margin-top: 10px;
+    }
+}
+.team-members{
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    flex-direction: column;
+    border-radius: 15px;
+    background-color: aqua;
+}
+.team-members img{
+    object-fit: contain;
+    height: 100%;
+    
+
+}
+.socials{
+    background-color: pink;
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+
+}
+.social1{
+    background-color: aqua;
+}
+.social2{
+    background-color: chocolate;
+}
