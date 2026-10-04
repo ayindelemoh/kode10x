@@ -484,6 +484,13 @@ header {
     .mobile-menu-icon {
         display: flex; 
     }
+
+    .mobile-menu-icon img{
+        width: 30px;
+        height: 30px;
+        object-fit: contain;
+    }
+
     .hero-section {
         flex-direction: column-reverse; 
         text-align: center;
@@ -509,13 +516,14 @@ header {
         max-width: 60%; 
     }
 
+    .hero-container,
     .hero2-container, 
     .courses-container {
         grid-template-columns: 1fr; 
         padding: 0 5%;
         gap: 30px;
     }
-
+                                            
     .hero2 h1, 
     .courses-title h1 {
         font-size: 26px;
@@ -524,27 +532,28 @@ header {
     .footer-top {
         flex-direction: column; 
         gap: 30px;
-        text-align: center;
+        text-align: left;
     }
 
     .footer-brand {
         max-width: 100%;
         display: flex;
         flex-direction: column;
-        align-items: center;
+        align-items: left;
     }
 
     .footer-logo {
-        justify-content: center;
+        justify-content: left;
     }
 
     .social-icons {
-        justify-content: center;
+        justify-content: left;
     }
 
     .footer-bottom {
         flex-direction: column; 
         gap: 15px;
+        align-items: left;
     }
 
     .legal-links {
@@ -552,3 +561,6 @@ header {
         gap: 15px;
     }
 }
+/* .main-footer{
+    text-align: left;
+} */
